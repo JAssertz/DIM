@@ -43,6 +43,10 @@
     :global(.milestone-info) {
       display: none !important;
     }
+
+    :global(.milestone-quest) {
+      height: 70px !important;
+    }
   }
 
   @media (min-width: 541px) {
@@ -59,7 +63,7 @@
     min-width: 60px;
 
     :global(.milestone-quest) {
-      align-items: flex-start;
+      align-items: flex-start !important;
       flex-direction: column;
     }
     :global(.milestone-icon) {
