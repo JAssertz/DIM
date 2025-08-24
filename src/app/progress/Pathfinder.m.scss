@@ -5,6 +5,8 @@
   flex-direction: row;
   gap: 16px;
   margin: 16px 0;
+  overflow: hidden;
+  position: relative;
 
   @include phone-portrait {
     flex-direction: column;
