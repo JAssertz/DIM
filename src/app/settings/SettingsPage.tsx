@@ -249,6 +249,18 @@ export default function SettingsPage() {
       </PageWithMenu.Menu>
       <PageWithMenu.Contents className={styles.settings}>
         <form>
+          <section id="data">
+            <h2>{t('Settings.AutoRefresh')}</h2>
+            <div className={styles.setting}>
+              <Checkbox
+                label={t('Settings.AutoRefresh')}
+                name="autoRefresh"
+                value={settings.singleCharacter}
+                onChange={onCheckChange}
+              />
+              <div className={styles.fineprint}>{t('Settings.AutoRefreshExplanation')}</div>
+            </div>
+          </section>
           <section id="appearance">
             <h2>{t('Settings.Appearance')}</h2>
             <div className={styles.setting}>

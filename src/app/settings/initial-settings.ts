@@ -7,6 +7,7 @@ import { defaultLanguage, DimLanguage } from 'app/i18n';
 export interface Settings extends DimApiSettings {
   language: DimLanguage;
   armorCompare: 'current' | 'base' | 'baseMasterwork';
+  autoRefresh: boolean;
 }
 
 export const initialSettingsState: Settings = {

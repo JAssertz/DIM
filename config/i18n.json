@@ -1214,6 +1214,8 @@
     "Appearance": "Appearance",
     "AutoLockTagged": "Sync item lock state with tag",
     "AutoLockTaggedExplanation": "DIM will automatically lock and unlock items to match their tag. Crafted items will remain unlocked to allow reshaping. When this setting is enabled, the lock icon will not be shown on the item tile for tagged items.",
+    "AutoRefresh": "Auto Refresh Data",
+    "AutoRefreshExplanation": "DIM will automatically refresh data from the bungie.net api, due to the bungie api's cache this may result in data being a few minutes behind.",
     "BadgePostmaster": "Show the number of postmaster items for the current character on app icon",
     "BadgePostmasterExplanation": "For this to work you must install DIM as an app and your OS must support displaying badges",
     "BungieDescriptionOnly": "Bungie Descriptions",
