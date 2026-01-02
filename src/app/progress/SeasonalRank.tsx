@@ -277,7 +277,7 @@ export function getSeasonPassStatus(
   const seasonPassLevel = Math.min(seasonProgression.level, baseLevels) + prestigeProgression.level;
   const { rewardItems } = defs.Progression.get(seasonPassProgressionHash);
 
-  const prestigeMode = seasonProgression.level === seasonProgression.levelCap;
+  const prestigeMode = seasonProgression.level >= seasonProgressionDef.steps.length - 1;
 
   const { progressToNextLevel, nextLevelAt } = prestigeMode
     ? prestigeProgression
